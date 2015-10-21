@@ -1,0 +1,37 @@
+For this project, you work for a foreign aid non-profit delivering shipments of aid to villages and towns s in a war-torn nation. 
+Circumstances are not stable on the ground; the sites that the NGO is willing to safely deliver to changes frequently, 
+as well as the safe roads available to travel between locations.
+ 
+Your company has asked you to create a new application to help 
+keep track of the changing landscape by recording the data on these available sites as they come and go.
+ 
+Your first task: 
+- design a RESTful Web Service to be used to record the available sites and their distances between them.
+ 
+Users of the RESTful Web Service you design should be minimally able to
+ 
++ 1)- Create a new Site
++	-- Sites need only be identified by a Site Name.
+	-- Creation can include an optional list of the direct connections to other sites and the associated distance in kilometers (km).
+ 2)- List details for any site
+	-- Return the Site Name, and all direct connections to other sites and the associated distance in kilometers (km).
+ 3)- Update a Site
++	-- Update the name of a site
+	-- Delete, Add, or Update any direct connections that site has to other sites and the associated distances in kilometers (km).
++- Delete a Site
++- List all available sites
+ 
+A set of test data has been attached to this file email, listing sample data that should be inserted into your application before the demo.
+ 
+Your solution must be written in Java 7 or Java 8, and will be judged on good practices and style.
+ 
+Your solution is not required to:
+- provably run on any machine outside of your laptop or other demo machine;
+- persist data beyond the running java instance
+ 
+Be prepared to:
+- Show the project, both code and a running version and perform a simple demo.
+	-- If remote, we can provide WebEx or Skype accounts as needed 
+- Modify the project during the in-depth interview.
+- Explain the design choices in your project, including API design, software organization and modelling, etc.
+- Discuss the choice of any open source libraries used in the implementation.
